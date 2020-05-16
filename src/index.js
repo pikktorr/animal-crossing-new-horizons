@@ -4,34 +4,15 @@ import "./index.css";
 import "tachyons";
 import * as serviceWorker from "./serviceWorker";
 
-// import Logo from "./Components/Logo/Logo";
-import Card from "./Components/Card/Card";
+// import Card from "./Components/Cards/Card";
 import Logo from "./Components/Logo/Logo";
+import CardList from "./Components/Cards/CardList";
 const villagers = require("./Components/Api/villagers.json");
 
 ReactDOM.render(
   <div className="tc">
     <Logo />
-    <Card
-      id={villagers.duk09.id}
-      name={villagers.duk09.name["name-en"]}
-      phrase={villagers.duk09["catch-phrase"]}
-    />
-    <Card
-      id={villagers.ant09.id}
-      name={villagers.ant09.name["name-en"]}
-      phrase={villagers.ant09["catch-phrase"]}
-    />
-    <Card
-      id={villagers.cat16.id}
-      name={villagers.cat16.name["name-en"]}
-      phrase={villagers.cat16["catch-phrase"]}
-    />
-    <Card
-      id={villagers.brd11.id}
-      name={villagers.brd11.name["name-en"]}
-      phrase={villagers.brd11["catch-phrase"]}
-    />
+    <CardList villagers={villagers} />
   </div>,
   document.getElementById("root")
 );
