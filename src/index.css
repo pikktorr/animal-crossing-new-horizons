@@ -4,3 +4,7 @@ body {
   background: url(./img/wallpaper_pattern.png) repeat;
   background-size: 30%;
 }
+
+input {
+  outline: none;
+}

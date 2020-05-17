@@ -4,14 +4,13 @@ import Card from "./Card";
 const CardList = ({ villagers }) => {
   return (
     <div>
-      {Object.entries(villagers).map((villager) => {
-        const animalObject = villager[1];
+      {villagers.map((villager) => {
         return (
           <Card
-            key={animalObject.id}
-            id={animalObject.id}
-            name={animalObject.name["name-en"]}
-            phrase={animalObject["catch-phrase"]}
+            key={villager.id}
+            id={villager.id}
+            name={villager.name["name-en"]}
+            phrase={villager["catch-phrase"]}
           />
         );
       })}
