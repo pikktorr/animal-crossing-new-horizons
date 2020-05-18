@@ -5,6 +5,10 @@ body {
   background-size: 30%;
 }
 
+h2 {
+  font-family: "Zilla Slab", serif;
+}
+
 input {
   outline: none;
 }
