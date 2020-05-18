@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 
-import Logo from "../Components/Logo/Logo";
-import CardList from "../Components/Cards/CardList";
-import SearchBox from "../Components/SearchBox/SearchBox";
+import Logo from "../Components/Logo";
+import SearchBox from "../Components/SearchBox";
+// import Scroll from "../Components/Scroll";
+import CardList from "../Components/CardList";
 
 class App extends Component {
   constructor() {
@@ -28,19 +29,26 @@ class App extends Component {
   };
 
   render() {
-    const filteredVillagers = this.state.villagers.filter((villager) => {
+    const { villagers, searchfield } = this.state;
+    const filteredVillagers = villagers.filter((villager) => {
       const animalName = villager.name["name-en"];
-      return animalName
-        .toLowerCase()
-        .includes(this.state.searchfield.toLowerCase());
+      return animalName.toLowerCase().includes(searchfield.toLowerCase());
     });
-    return (
-      <div className="tc">
-        <Logo />
-        <SearchBox searchChange={this.onSearchChange} />
-        <CardList villagers={filteredVillagers} />
-      </div>
-    );
+    if (!villagers.length) {
+      return (
+        <h1 className="tc pa3 bg-light-yellow mid-gray">Hold on a sec...</h1>
+      );
+    } else {
+      return (
+        <div className="tc">
+          <Logo />
+          <SearchBox searchChange={this.onSearchChange} />
+            <CardList villagers={filteredVillagers} />
+          {/* <Scroll>
+          </Scroll> */}
+        </div>
+      );
+    }
   }
 }
 
