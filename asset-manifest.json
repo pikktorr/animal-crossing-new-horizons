@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/villagers-of-animal-crossing-new-horizons/static/css/main.547bdb7d.chunk.css",
+    "main.js": "/villagers-of-animal-crossing-new-horizons/static/js/main.7c77489a.chunk.js",
+    "main.js.map": "/villagers-of-animal-crossing-new-horizons/static/js/main.7c77489a.chunk.js.map",
+    "runtime-main.js": "/villagers-of-animal-crossing-new-horizons/static/js/runtime-main.3ddfbffb.js",
+    "runtime-main.js.map": "/villagers-of-animal-crossing-new-horizons/static/js/runtime-main.3ddfbffb.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/villagers-of-animal-crossing-new-horizons/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.7f6aeca2.chunk.js": "/villagers-of-animal-crossing-new-horizons/static/js/2.7f6aeca2.chunk.js",
+    "static/js/2.7f6aeca2.chunk.js.map": "/villagers-of-animal-crossing-new-horizons/static/js/2.7f6aeca2.chunk.js.map",
+    "index.html": "/villagers-of-animal-crossing-new-horizons/index.html",
+    "precache-manifest.6d46997a4d392b459d0e13c3d36aa751.js": "/villagers-of-animal-crossing-new-horizons/precache-manifest.6d46997a4d392b459d0e13c3d36aa751.js",
+    "service-worker.js": "/villagers-of-animal-crossing-new-horizons/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/villagers-of-animal-crossing-new-horizons/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.547bdb7d.chunk.css.map": "/villagers-of-animal-crossing-new-horizons/static/css/main.547bdb7d.chunk.css.map",
+    "static/js/2.7f6aeca2.chunk.js.LICENSE.txt": "/villagers-of-animal-crossing-new-horizons/static/js/2.7f6aeca2.chunk.js.LICENSE.txt",
+    "static/media/New Horizons Logo.png": "/villagers-of-animal-crossing-new-horizons/static/media/New Horizons Logo.ee6b4980.png",
+    "static/media/index.css": "/villagers-of-animal-crossing-new-horizons/static/media/wallpaper_pattern.0ff5e57b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ddfbffb.js",
+    "static/css/2.3c03f26f.chunk.css",
+    "static/js/2.7f6aeca2.chunk.js",
+    "static/css/main.547bdb7d.chunk.css",
+    "static/js/main.7c77489a.chunk.js"
+  ]
+}
