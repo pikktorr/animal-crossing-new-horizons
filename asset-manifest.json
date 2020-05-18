@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/animal-crossing-new-horizons/static/css/main.105749d5.chunk.css",
-    "main.js": "/animal-crossing-new-horizons/static/js/main.233a3333.chunk.js",
-    "main.js.map": "/animal-crossing-new-horizons/static/js/main.233a3333.chunk.js.map",
+    "main.js": "/animal-crossing-new-horizons/static/js/main.78f7f2d3.chunk.js",
+    "main.js.map": "/animal-crossing-new-horizons/static/js/main.78f7f2d3.chunk.js.map",
     "runtime-main.js": "/animal-crossing-new-horizons/static/js/runtime-main.55df696a.js",
     "runtime-main.js.map": "/animal-crossing-new-horizons/static/js/runtime-main.55df696a.js.map",
     "static/css/2.3c03f26f.chunk.css": "/animal-crossing-new-horizons/static/css/2.3c03f26f.chunk.css",
     "static/js/2.7f6aeca2.chunk.js": "/animal-crossing-new-horizons/static/js/2.7f6aeca2.chunk.js",
     "static/js/2.7f6aeca2.chunk.js.map": "/animal-crossing-new-horizons/static/js/2.7f6aeca2.chunk.js.map",
     "index.html": "/animal-crossing-new-horizons/index.html",
-    "precache-manifest.c26aec48c800ae3c0d234d0d72d311be.js": "/animal-crossing-new-horizons/precache-manifest.c26aec48c800ae3c0d234d0d72d311be.js",
+    "precache-manifest.77dc983710dff4cebda2fb9f00d211f8.js": "/animal-crossing-new-horizons/precache-manifest.77dc983710dff4cebda2fb9f00d211f8.js",
     "service-worker.js": "/animal-crossing-new-horizons/service-worker.js",
     "static/css/2.3c03f26f.chunk.css.map": "/animal-crossing-new-horizons/static/css/2.3c03f26f.chunk.css.map",
     "static/css/main.105749d5.chunk.css.map": "/animal-crossing-new-horizons/static/css/main.105749d5.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.3c03f26f.chunk.css",
     "static/js/2.7f6aeca2.chunk.js",
     "static/css/main.105749d5.chunk.css",
-    "static/js/main.233a3333.chunk.js"
+    "static/js/main.78f7f2d3.chunk.js"
   ]
 }

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "700ce8ee7a666f9800bc97c7a20256f5",
+    "revision": "78a4bc74f7ff1f39011622a9003dbc02",
     "url": "/animal-crossing-new-horizons/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/animal-crossing-new-horizons/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "4c68029ef739c9a318aa",
+    "revision": "5c8715efc334c17be1b8",
     "url": "/animal-crossing-new-horizons/static/css/main.105749d5.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/animal-crossing-new-horizons/static/js/2.7f6aeca2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4c68029ef739c9a318aa",
-    "url": "/animal-crossing-new-horizons/static/js/main.233a3333.chunk.js"
+    "revision": "5c8715efc334c17be1b8",
+    "url": "/animal-crossing-new-horizons/static/js/main.78f7f2d3.chunk.js"
   },
   {
     "revision": "38ebe915c0d3d2cbd9b4",
