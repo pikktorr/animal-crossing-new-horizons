@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../img/New Horizons Logo.png";
+import logo from "../img/new-horizons-logo.png";
 
 const Logo = () => {
   return (
