@@ -5,7 +5,7 @@ const Card = ({ id, name, phrase }) => {
     <div className="dark-gray bg-light-yellow dib br2 pa3 ma2 shadow-5 w50 grow">
       <img
         className="br2 mw5"
-        src={`http://acnhapi.com/images/villagers/${id}`}
+        src={`https://acnhapi.com/images/villagers/${id}`}
         alt={`image_of_${name}`}
       />
       <div>
