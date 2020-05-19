@@ -1,16 +1,31 @@
+// BUILT-IN IMPORTS
 import React, { Component } from "react";
-
+import { connect } from "react-redux";
+// CUSTOM IMPORTS
 import Logo from "../Components/Logo";
 import SearchBox from "../Components/SearchBox";
-// import Scroll from "../Components/Scroll";
 import CardList from "../Components/CardList";
+import { inputText } from "../actions";
+
+const mapStateToProps = (state) => {
+  return {
+    searchField: state.searchVillagers.searchField,
+  };
+};
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    onSearchChange: (event) => {
+      dispatch(inputText(event.target.value));
+    },
+  };
+};
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
       villagers: [],
-      searchfield: "",
     };
   }
 
@@ -24,15 +39,16 @@ class App extends Component {
       .catch((error) => console.log(error.message));
   }
 
-  onSearchChange = (event) => {
-    this.setState({ searchfield: event.target.value });
-  };
-
   render() {
-    const { villagers, searchfield } = this.state;
+    // STATE
+    const { villagers } = this.state;
+    // PROPS
+    const { searchField, onSearchChange } = this.props;
+
+    // FILTER VILLAGERS
     const filteredVillagers = villagers.filter((villager) => {
       const animalName = villager.name["name-en"];
-      return animalName.toLowerCase().includes(searchfield.toLowerCase());
+      return animalName.toLowerCase().includes(searchField.toLowerCase());
     });
     if (!villagers.length) {
       return (
@@ -42,14 +58,12 @@ class App extends Component {
       return (
         <div className="tc">
           <Logo />
-          <SearchBox searchChange={this.onSearchChange} />
-            <CardList villagers={filteredVillagers} />
-          {/* <Scroll>
-          </Scroll> */}
+          <SearchBox searchChange={onSearchChange} />
+          <CardList villagers={filteredVillagers} />
         </div>
       );
     }
   }
 }
 
-export default App;
+export default connect(mapStateToProps, mapDispatchToProps)(App);
