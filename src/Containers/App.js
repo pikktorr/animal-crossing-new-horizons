@@ -43,6 +43,7 @@ class App extends Component {
     // STATE
     const { villagers } = this.state;
     // PROPS
+    console.log(this.props);
     const { searchField, onSearchChange } = this.props;
 
     // FILTER VILLAGERS
