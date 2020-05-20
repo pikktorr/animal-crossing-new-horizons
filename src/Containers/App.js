@@ -5,53 +5,43 @@ import { connect } from "react-redux";
 import Logo from "../Components/Logo";
 import SearchBox from "../Components/SearchBox";
 import CardList from "../Components/CardList";
-import { inputText } from "../actions";
+import { inputTextAction, requestApiAction } from "../Redux/actions";
 
 const mapStateToProps = (state) => {
+  // return all state from reducers
   return {
-    searchField: state.searchVillagers.searchField,
+    searchField: state.searchFieldReducer.searchField,
+    isPending: state.requestApiReducer.isPending,
+    apiData: state.requestApiReducer.apiData,
+    error: state.requestApiReducer.error,
   };
 };
 
 const mapDispatchToProps = (dispatch) => {
   return {
     onSearchChange: (event) => {
-      dispatch(inputText(event.target.value));
+      dispatch(inputTextAction(event.target.value));
     },
+    onRequestVillagers: () => dispatch(requestApiAction()),
   };
 };
 
 class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      villagers: [],
-    };
-  }
-
   componentDidMount() {
-    fetch("https://acnhapi.com/villagers")
-      .then((response) => response.json())
-      .then((result) => {
-        const villagers = Object.entries(result).map((villager) => villager[1]);
-        this.setState({ villagers: villagers });
-      })
-      .catch((error) => console.log(error.message));
+    this.props.onRequestVillagers();
   }
 
   render() {
-    // STATE
-    const { villagers } = this.state;
     // PROPS
-    console.log(this.props);
-    const { searchField, onSearchChange } = this.props;
+    const { searchField, onSearchChange, apiData, isPending } = this.props;
 
     // FILTER VILLAGERS
+    const villagers = Object.entries(apiData).map((villager) => villager[1]);
     const filteredVillagers = villagers.filter((villager) => {
       const animalName = villager.name["name-en"];
       return animalName.toLowerCase().includes(searchField.toLowerCase());
     });
-    if (!villagers.length) {
+    if (isPending) {
       return (
         <h1 className="tc pa3 bg-light-yellow mid-gray">Hold on a sec...</h1>
       );
