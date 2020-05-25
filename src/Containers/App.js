@@ -43,7 +43,9 @@ class App extends Component {
     });
     if (isPending) {
       return (
-        <h1 className="tc pa3 bg-light-yellow mid-gray">Hold on a sec...</h1>
+        <h1 className="tc pa3 bg-light-yellow mid-gray">
+          Hold on just a sec, OK?
+        </h1>
       );
     } else {
       return (

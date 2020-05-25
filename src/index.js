@@ -15,7 +15,7 @@ import "./index.css";
 const logger = createLogger();
 const store = createStore(
   allReducers,
-  applyMiddleware(thunkMiddleware, logger)
+  applyMiddleware(thunkMiddleware)
 );
 
 ReactDOM.render(
