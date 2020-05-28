@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/animal-crossing-new-horizons/static/css/main.105749d5.chunk.css",
-    "main.js": "/animal-crossing-new-horizons/static/js/main.4b314301.chunk.js",
-    "main.js.map": "/animal-crossing-new-horizons/static/js/main.4b314301.chunk.js.map",
+    "main.js": "/animal-crossing-new-horizons/static/js/main.ebf5779f.chunk.js",
+    "main.js.map": "/animal-crossing-new-horizons/static/js/main.ebf5779f.chunk.js.map",
     "runtime-main.js": "/animal-crossing-new-horizons/static/js/runtime-main.55df696a.js",
     "runtime-main.js.map": "/animal-crossing-new-horizons/static/js/runtime-main.55df696a.js.map",
     "static/css/2.3c03f26f.chunk.css": "/animal-crossing-new-horizons/static/css/2.3c03f26f.chunk.css",
-    "static/js/2.7f6aeca2.chunk.js": "/animal-crossing-new-horizons/static/js/2.7f6aeca2.chunk.js",
-    "static/js/2.7f6aeca2.chunk.js.map": "/animal-crossing-new-horizons/static/js/2.7f6aeca2.chunk.js.map",
+    "static/js/2.04271951.chunk.js": "/animal-crossing-new-horizons/static/js/2.04271951.chunk.js",
+    "static/js/2.04271951.chunk.js.map": "/animal-crossing-new-horizons/static/js/2.04271951.chunk.js.map",
     "index.html": "/animal-crossing-new-horizons/index.html",
-    "precache-manifest.dc403a0e25ccbd86b9fab51e77bf973b.js": "/animal-crossing-new-horizons/precache-manifest.dc403a0e25ccbd86b9fab51e77bf973b.js",
+    "precache-manifest.a26a5f259f2b10cdbbf4f680db25bbc9.js": "/animal-crossing-new-horizons/precache-manifest.a26a5f259f2b10cdbbf4f680db25bbc9.js",
     "service-worker.js": "/animal-crossing-new-horizons/service-worker.js",
     "static/css/2.3c03f26f.chunk.css.map": "/animal-crossing-new-horizons/static/css/2.3c03f26f.chunk.css.map",
     "static/css/main.105749d5.chunk.css.map": "/animal-crossing-new-horizons/static/css/main.105749d5.chunk.css.map",
-    "static/js/2.7f6aeca2.chunk.js.LICENSE.txt": "/animal-crossing-new-horizons/static/js/2.7f6aeca2.chunk.js.LICENSE.txt",
+    "static/js/2.04271951.chunk.js.LICENSE.txt": "/animal-crossing-new-horizons/static/js/2.04271951.chunk.js.LICENSE.txt",
     "static/media/new-horizons-logo.png": "/animal-crossing-new-horizons/static/media/new-horizons-logo.ee6b4980.png",
     "static/media/index.css": "/animal-crossing-new-horizons/static/media/wallpaper_pattern.0ff5e57b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.55df696a.js",
     "static/css/2.3c03f26f.chunk.css",
-    "static/js/2.7f6aeca2.chunk.js",
+    "static/js/2.04271951.chunk.js",
     "static/css/main.105749d5.chunk.css",
-    "static/js/main.4b314301.chunk.js"
+    "static/js/main.ebf5779f.chunk.js"
   ]
 }
