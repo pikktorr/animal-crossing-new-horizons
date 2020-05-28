@@ -16,7 +16,6 @@ class Logo extends Component {
   }
 
   render() {
-    console.log("Logo");
     return (
       <div className="logo-div">
         <header>

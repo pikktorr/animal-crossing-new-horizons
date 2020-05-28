@@ -2,7 +2,6 @@ import React from "react";
 import Card from "./Card";
 
 const CardList = ({ villagers }) => {
-  console.log("CardList");
   return (
     <div>
       {villagers.map((villager) => {
