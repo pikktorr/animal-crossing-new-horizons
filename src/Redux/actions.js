@@ -12,7 +12,7 @@ export const inputTextAction = (text) => ({
 
 export const requestApiAction = () => (dispatch) => {
   dispatch({ type: REQUEST_API_PENDING });
-  fetch("https://acnhapi.com/villagers")
+  fetch("https://acnhapi.com/v1/villagers")
     .then((response) => response.json())
     .then((result) => dispatch({ type: REQUEST_API_SUCCESS, payload: result }))
     .catch((error) => dispatch({ type: REQUEST_API_FAILED, payload: error }));

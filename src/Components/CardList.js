@@ -5,11 +5,12 @@ const CardList = ({ villagers }) => {
   return (
     <div>
       {villagers.map((villager) => {
+        console.log(villager.name["name-EUen"]);
         return (
           <Card
             key={villager.id}
             id={villager.id}
-            name={villager.name["name-en"]}
+            name={villager.name["name-EUen"]}
             phrase={villager["catch-phrase"]}
           />
         );

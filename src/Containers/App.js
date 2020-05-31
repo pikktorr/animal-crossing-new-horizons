@@ -38,7 +38,7 @@ class App extends Component {
     // FILTER VILLAGERS
     const villagers = Object.entries(apiData).map((villager) => villager[1]);
     const filteredVillagers = villagers.filter((villager) => {
-      const animalName = villager.name["name-en"];
+      const animalName = villager.name["name-EUen"];
       return animalName.toLowerCase().includes(searchField.toLowerCase());
     });
     if (isPending) {
