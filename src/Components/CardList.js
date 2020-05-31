@@ -5,7 +5,6 @@ const CardList = ({ villagers }) => {
   return (
     <div>
       {villagers.map((villager) => {
-        console.log(villager.name["name-EUen"]);
         return (
           <Card
             key={villager.id}
