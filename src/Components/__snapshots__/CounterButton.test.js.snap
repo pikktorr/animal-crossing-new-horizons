@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing stateful component expect to render CounterButton  1`] = `
+"<button id=\\"button\\" color=\\"green\\" onClick={[Function: onClick]}>
+  Count: 
+  0
+</button>"
+`;
