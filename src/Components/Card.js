@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ id, name, phrase }) => {
   return (
-    <div className="navy bg-light-yellow dib br2 pa3 ma2 shadow-5 w50 grow">
+    <div className="navy bg-light-yellow dib br2 pa3 ma2 shadow-5 grow">
       <img
         className="br2"
         src={`https://acnhapi.com/v1/images/villagers/${id}`}

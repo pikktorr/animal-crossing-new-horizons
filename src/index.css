@@ -31,3 +31,7 @@ input {
 .phrase {
   font-family: " Balsamiq Sans", cursive;
 }
+
+img {
+  max-width: 256px;
+}
