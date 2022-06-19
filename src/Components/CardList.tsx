@@ -8,7 +8,7 @@ type CardListProps = {
 
 const CardList = ({ villagers }: CardListProps) => {
   return (
-    <div>
+    <div className="flex flex-wrap gap-4 justify-center m-10">
       {villagers.map((villager) => {
         return (
           <Card

@@ -42,9 +42,9 @@ const App = () => {
   };
 
   return !villagers.length ? (
-    <h1 className="tc pa3 bg-light-yellow mid-gray">Hold on a sec...</h1>
+    <h1 className="">Hold on a sec...</h1>
   ) : (
-    <div className="tc">
+    <div className="text-center">
       <Logo />
       <SearchBox
         id={'searchBox'}

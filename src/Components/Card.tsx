@@ -8,16 +8,16 @@ type CardProps = {
 
 const Card = ({ id, name, phrase }: CardProps) => {
   return (
-    <div className="dark-gray bg-light-yellow dib br2 pa3 ma2 shadow-5 w50 grow">
+    <div className="bg-yellow-200 text-slate-700 text-center rounded-xl p-4 hover:scale-105 transition duration-500 ease-in-out">
       <img
-        className="br2 mw5"
+        className="rounded-md"
         src={`https://acnhapi.com/v1a/images/villagers/${id}`}
         alt={`image_of_${name}`}
       />
       <div>
-        <h2 className="f3 ma2">{name}</h2>
+        <h1 className="mt-4 uppercase font-bold">{name}</h1>
         <p
-          className="phrase f5 ma1 gray"
+          className="italic font-light"
           style={{ textTransform: 'capitalize' }}
         >
           "{phrase}"

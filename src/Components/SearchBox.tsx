@@ -9,10 +9,10 @@ type ISearchBoxProps = {
 
 const SearchBox = ({ id, placeholder, handleSearchChange, searchField }: ISearchBoxProps) => {
   return (
-    <div className="search-div pa2">
+    <div className="bg-yellow-200 p-2 w-56 text-center rounded-xl m-auto">
       <input
         id={id}
-        className="pa2 ba bw3 br3 b--light-yellow bg-washed-yellow w5"
+        className="w-52 p-2 rounded-md"
         type="search"
         placeholder={placeholder}
         onChange={handleSearchChange}

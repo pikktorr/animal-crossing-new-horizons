@@ -3,9 +3,9 @@ import logo from "../img/new-horizons-logo.png";
 
 const Logo = () => {
   return (
-    <div className="logo-div">
+    <div className="flex justify-center">
       <header>
-        <img src={logo} className="logo" alt="logo" />
+        <img src={logo} className="h-60" alt="logo" />
       </header>
     </div>
   );

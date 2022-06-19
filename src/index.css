@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: "Zilla Slab", serif;
@@ -13,7 +17,7 @@ h2 {
 input {
   outline: none;
 }
-.logo-div {
+/* .logo-div {
   height: 20vh;
 }
 .logo {
@@ -26,7 +30,7 @@ input {
 
 .scroll-div {
   height: 65vh;
-}
+} */
 
 .phrase {
   font-family: " Balsamiq Sans", cursive;
